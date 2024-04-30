@@ -17,6 +17,7 @@ typedef union {
     char *string_value;
 } Value;
 
+//Implemented using union which contains all 3 types of data and dataType is of type enum
 typedef struct Data{
     DataType type;
     Value value;
